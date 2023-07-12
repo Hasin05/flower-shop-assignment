@@ -21,19 +21,22 @@
     font-weight: 700;
 
 }
+
 .banner-con {
     max-width: 500px;
     padding-left: 70px;
 }
-.banner-p{
+
+.banner-p {
     color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
-.btn{
+
+.btn {
     border-radius: 8px;
     background: #E55473;
     font-size: 18;
@@ -42,34 +45,104 @@ line-height: 30px;
     gap: 10px;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* deal section css */
-.off{
+.off {
     color: #E55473;
 }
-.deal-title{
+
+.deal-title {
     text-align: center;
     font-size: 30px;
     font-weight: 800;
 }
-.deal-p{
+
+.deal-p {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
-.deal{
+
+.deal {
     padding: 130px;
-    background-color:#E554730D
+    background-color: #E554730D;
+    gap: 20px;
+
 }
-.total{
+
+.total {
     display: flex;
     align-items: center;
-    margin: 30px 0;
 }
-.total1{
+
+.total1 {
     text-align: center;
 }
 
+
+/* Instagram part */
+
+.insta {
+    text-align: center;
+}
+
+.insta-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.insta-p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 0;
+}
+.photo-container{
+    display: flex;
+    gap: 24px;
+    padding-left: 100px;
+
+}
+.img{
+    padding: 5px;
+    justify-items: center;
+}
+.instagram{
+    /* align-items: center; */
+}
+.total-ins{
+     justify-items: center;
+}
+
+
+/* Last Page */
+.backimg{
+    background-image: url('../Flower/Rectangle\ 9.png');
+    margin: 85px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 8px;
+}
+.input{
+
+    font-size: 16px;
+    padding: 15px 50px 15px 15px;
+    border: none;
+}
